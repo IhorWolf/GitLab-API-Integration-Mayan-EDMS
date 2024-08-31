@@ -57,7 +57,7 @@ Ensure that your PostgreSQL server is running and create a database if it doesn'
 CREATE DATABASE your_database;
 ```
 Also, ensure that your user has the necessary privileges to connect to this database.
-Add file create_table_gitlab_issues.sql to creating right table.
+Add file gitlab_issues.sql with script to create right table.
 
 6. Run the Script
 Once everything is set up, you can run the script:
@@ -79,5 +79,5 @@ Connection Refused to PostgreSQL: Ensure the PostgreSQL server is running and ac
 GitLab API Errors: Ensure that the GitLab access token and project ID are correct and have sufficient permissions.
 
 Contributing
-If you'd like to contribute to this project, please fork the repository and submit a pull request. We welcome any improvements or bug fixes.
+If you'd like to contribute to this project, please fork the repository and submit a pull request. I welcome any improvements or bug fixes.
  
